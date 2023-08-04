@@ -50,13 +50,13 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 3%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 6%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
 /* CSS untuk logo pada layar besar */
 .header_logo {
-  width: 5%; /* Ukuran logo pada layar besar */
+  width: 3.5%; /* Ukuran logo pada layar besar */
   height: auto; /* Biarkan tinggi mengikuti aspek ratio */
   margin-top: 0.25px;
   margin-left: 5%;
@@ -243,7 +243,7 @@ body, html {
 @media screen and (max-width: 650px) {
   .accordion_button {
     width: 100%; /* Dapat disesuaikan dengan kebutuhan */
-    height: 2.5%; /* Dapat disesuaikan dengan kebutuhan */
+    height: 4%; /* Dapat disesuaikan dengan kebutuhan */
   }
 }
   
@@ -276,7 +276,7 @@ body, html {
 @media screen and (max-width: 650px) {
   .buy_button {
   width: 100%; /* Dapat disesuaikan dengan kebutuhan */
-  height: 2.5%; /* Dapat disesuaikan dengan kebutuhan */
+  height: 4%; /* Dapat disesuaikan dengan kebutuhan */
   }
 }
   
@@ -357,6 +357,29 @@ body, html {
   color: #000000;
   background-color: rgba(255, 179, 0, 0.9);
   padding: 1px; /* Atur ukuran padding sesuai kebutuhan */
+}
+
+/* class countdown_button */
+.countdown_button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 6px;
+  color: rgb(0, 0, 0);
+  background-color: #33ff00;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height: 6.5%;
+  border-radius: 10px;
+}
+  
+/* Tambahkan media queries untuk layar kecil */
+@media screen and (max-width: 650px) {
+  .countdown_button {
+  width: 100%; /* Dapat disesuaikan dengan kebutuhan */
+  height: 8%; /* Dapat disesuaikan dengan kebutuhan */
+  }
 }
 
 /* Style the buttons that are used to open and close the collapsible panel */
