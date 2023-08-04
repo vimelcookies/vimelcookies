@@ -50,7 +50,7 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 1.5%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 3%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
@@ -79,9 +79,10 @@ header {
 /* Tambahkan properti CSS untuk membuat header_logo responsif di layar kecil */
 @media screen and (max-width: 650px) {
 .header_logo {
-  width: 10%; /* Ubah ukuran lebar sesuai kebutuhan */
+  width: 20%; /* Ubah ukuran lebar sesuai kebutuhan */
   height: auto; /* Biarkan tinggi mengikuti proporsi gambar asli */
   display: block; /* Pastikan gambar berada dalam satu baris */
+  margin-top: 1%
   margin-left: 1%;
 }
 }
@@ -242,7 +243,7 @@ body, html {
 @media screen and (max-width: 650px) {
   .accordion_button {
     width: 100%; /* Dapat disesuaikan dengan kebutuhan */
-    height: 1%; /* Dapat disesuaikan dengan kebutuhan */
+    height: 2.5%; /* Dapat disesuaikan dengan kebutuhan */
   }
 }
   
@@ -275,7 +276,7 @@ body, html {
 @media screen and (max-width: 650px) {
   .buy_button {
   width: 100%; /* Dapat disesuaikan dengan kebutuhan */
-  height: 1%; /* Dapat disesuaikan dengan kebutuhan */
+  height: 2.5%; /* Dapat disesuaikan dengan kebutuhan */
   }
 }
   
@@ -505,7 +506,7 @@ body, html {
   z-index: 1;
 }
 
-/* Tambahkan media queries untuk layar kecil */
+/* The circles on the timeline */
 @media screen and (max-width: 650px) {
   .timeline_position::after {
     position: absolute;
@@ -514,7 +515,7 @@ body, html {
     right: -19.5px;
     background-color: rgba(255, 179, 0, 0.9);
     border: 4px solid #000000;
-    top: 35%;
+    top: 30%;
     border-radius: 50%;
     z-index: 1;
   }
@@ -646,7 +647,7 @@ footer {
 /* Responsif pada layar kecil (kurang dari 768px) */
 @media screen and (max-width: 650px) {
   footer {
-    height: 15%; /* Atur tinggi khusus untuk layar kecil */
+    height: 40%; /* Atur tinggi khusus untuk layar kecil */
   }
 }
 
