@@ -50,13 +50,13 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 35%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 5%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
 /* CSS untuk logo pada layar besar */
 .header_logo {
-  width: 7.5%; /* Ukuran logo pada layar besar */
+  width: 5%; /* Ukuran logo pada layar besar */
   height: auto; /* Biarkan tinggi mengikuti aspek ratio */
   margin-top: 0.25px;
   margin-left: 5%;
