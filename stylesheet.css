@@ -90,7 +90,7 @@ header {
 /* Tambahkan properti CSS untuk membuat text_logo responsif di layar kecil */
 @media screen and (max-width: 650px) {
   .text_logo {
-  font-size: 10px;
+  font-size: 17px;
   margin-top: 5%;
   margin-left: 5%;
 }
