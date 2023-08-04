@@ -50,7 +50,7 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 6%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 12%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
@@ -671,6 +671,7 @@ footer {
 @media screen and (max-width: 650px) {
   footer {
     height: 40%; /* Atur tinggi khusus untuk layar kecil */
+    margin-top: 25%;
   }
 }
 
