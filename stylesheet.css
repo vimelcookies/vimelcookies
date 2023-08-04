@@ -50,7 +50,7 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 65%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 35%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
