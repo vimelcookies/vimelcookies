@@ -50,7 +50,7 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 14%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 16%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
@@ -79,7 +79,7 @@ header {
 /* Tambahkan properti CSS untuk membuat header_logo responsif di layar kecil */
 @media screen and (max-width: 650px) {
 .header_logo {
-  width: 15%; /* Ubah ukuran lebar sesuai kebutuhan */
+  width: 12.5%; /* Ubah ukuran lebar sesuai kebutuhan */
   height: auto; /* Biarkan tinggi mengikuti proporsi gambar asli */
   display: block; /* Pastikan gambar berada dalam satu baris */
   margin-top: 0.25%
@@ -90,7 +90,7 @@ header {
 /* Tambahkan properti CSS untuk membuat text_logo responsif di layar kecil */
 @media screen and (max-width: 650px) {
   .text_logo {
-  font-size: 10px;
+  font-size: 2.5px;
   margin-top: 5%;
   margin-left: 5%;
 }
