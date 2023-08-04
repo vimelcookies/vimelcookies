@@ -82,14 +82,15 @@ header {
   width: 20%; /* Ubah ukuran lebar sesuai kebutuhan */
   height: auto; /* Biarkan tinggi mengikuti proporsi gambar asli */
   display: block; /* Pastikan gambar berada dalam satu baris */
-  margin-top: 1%
-  margin-left: 1%;
+  margin-top: 0.5%
+  margin-left: 0.5%;
 }
 }
 
 /* Tambahkan properti CSS untuk membuat text_logo responsif di layar kecil */
 @media screen and (max-width: 650px) {
   .text_logo {
+  font-size: 25px;
   margin-top: 5%;
   margin-left: 5%;
 }
