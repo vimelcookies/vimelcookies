@@ -50,7 +50,7 @@ header {
 
 @media screen and (max-width: 650px) {
   header {
-  height: 15%; /* Biarkan tinggi mengikuti proporsi gambar asli */
+  height: 13%; /* Biarkan tinggi mengikuti proporsi gambar asli */
 }
 }
 
@@ -79,11 +79,11 @@ header {
 /* Tambahkan properti CSS untuk membuat header_logo responsif di layar kecil */
 @media screen and (max-width: 650px) {
 .header_logo {
-  width: 17%; /* Ubah ukuran lebar sesuai kebutuhan */
+  width: 18%; /* Ubah ukuran lebar sesuai kebutuhan */
   height: auto; /* Biarkan tinggi mengikuti proporsi gambar asli */
   display: block; /* Pastikan gambar berada dalam satu baris */
-  margin-top: 0.25%
-  margin-left: 0.25%;
+  margin-top: 0.1%
+  margin-left: 0.1%;
 }
 }
 
@@ -537,7 +537,7 @@ body, html {
     width: 30px;
     height: 30px;
     right: -19.5px;
-    background-color: rgba(255, 179, 0, 0.9);
+    background-color: rgba(255, 179, 0, 1);
     border: 4px solid #000000;
     top: 30%;
     border-radius: 50%;
