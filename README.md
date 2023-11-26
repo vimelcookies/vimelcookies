@@ -1,1 +1,1 @@
-# vimelcookies here!
+# Vimelcookies Website Spesification
